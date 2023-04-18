@@ -1,3 +1,10 @@
+/* 
+font-family: 'Mukta', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Mono', monospace; 
+*/
+
 
 * {
     box-sizing: border-box;
@@ -6,6 +13,19 @@
   }
 
 
+  .navbar-brand{
+    color:whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    font-weight:normal;
+    font-size: large;
+  }
+  
+
+.logoMed{
+    width:8%;
+    height:8%;
+    margin: 0 10px 0 10px;
+}
 
  /*  Hamburguesa contraida color */
  /*  .navbar-toggler-icon {
@@ -17,40 +37,64 @@
   } 
 
 
-
-
-/* .navega{
-    background-color: black;
+.div-nav a{
+    color:rgb(166, 166, 166);
+    color:antiquewhite;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.3vw;
 }
 
+/* Estilo para pantallas de laptop o mayores */
+@media screen and (max-width: 1000px) {
+/*     .div-nav{
+            position: fixed;
+            top: 60px;
+            left: 580px;
+    } */
+    .navbar-brand{
+        font-size: medium;
+      }
 
-.color-nav{
-    color: antiquewhite;
+    .div-nav a{
+        color: antiquewhite;
+        font-size: medium;
+        text-align: center;
+    }
+  }
+
+.nav-link{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: medium;
+  }
+  
+.nav-link:hover{
+    color:rgb(127, 255, 197);
 }
 
-a:hover{
-    color:aqua;
-} */
 
 .logo-ig{
     color: antiquewhite;
     /*     color:linear-gradient(to bottom,#4E31AA, #77037B);*/
      margin: 9px 15px 15px 15px;;
 }
-
 .logo-ig:hover{
-/*     background:linear-gradient(to bottom,#4E31AA, #77037B);*/
     color: #aa5cdf;
 }
+
 
 .logo-yt{
     color: antiquewhite;
     margin: 9px 15px 0 15px;;
 }
-
 .logo-yt:hover{
     color: rgb(248, 2, 2);
 }
+
+
+
+
+
 
 .footer{
     background-color:rgb(34, 34, 34);
@@ -61,9 +105,9 @@ a:hover{
 }
 
 .logos_ipn{
-    width: 150px;
-    height: 150px;
-    padding: 20px;
+    width: 90px;
+    height: 90px;
+    margin: 20px 30px 20px 30px;
 }
 
 .imgs-ipn{
