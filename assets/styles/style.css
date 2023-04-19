@@ -6,7 +6,7 @@ font-family: 'Roboto Mono', monospace;
 */
 
 
-* {
+*{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -15,9 +15,9 @@ font-family: 'Roboto Mono', monospace;
 
   .navbar-brand{
     color:whitesmoke;
-    font-family: 'Roboto', sans-serif;
-    font-weight:normal;
-    font-size: large;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:bolder;
+    font-size: larger;
   }
   
 
@@ -32,8 +32,8 @@ font-family: 'Roboto Mono', monospace;
     background-color:aquamarine;
   }  */
   .navbar-toggler{
-    border-color: aquamarine;
-    background-color: rgba(127, 255, 249, 0.194);
+    border-color:aquamarine;
+    background-color: rgba(178, 191, 190, 0.217);
   } 
 
 
@@ -45,23 +45,6 @@ font-family: 'Roboto Mono', monospace;
     font-size: 1.3vw;
 }
 
-/* Estilo para pantallas de laptop o mayores */
-@media screen and (max-width: 1000px) {
-/*     .div-nav{
-            position: fixed;
-            top: 60px;
-            left: 580px;
-    } */
-    .navbar-brand{
-        font-size: medium;
-      }
-
-    .div-nav a{
-        color: antiquewhite;
-        font-size: medium;
-        text-align: center;
-    }
-  }
 
 .nav-link{
     font-family: 'Open Sans', sans-serif;
@@ -98,7 +81,6 @@ font-family: 'Roboto Mono', monospace;
 
 .footer{
     background-color:rgb(34, 34, 34);
-    color:antiquewhite;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -107,12 +89,54 @@ font-family: 'Roboto Mono', monospace;
 .logos_ipn{
     width: 90px;
     height: 90px;
-    margin: 20px 30px 20px 30px;
+    margin: 15px;
 }
 
 .imgs-ipn{
     text-align: center;
     align-items: center;
 }
+
+.info-foot{
+  text-align: center;
+  margin:12px 0 12px 0;
+  color:antiquewhite;
+}
+
+
+
+
+/* Estilo para pantallas de laptop o mayores */
+@media screen and (max-width: 1000px) {
+      
+    .navbar-brand{
+      font-size:small;
+    }
+  
+    .div-nav a{
+      color:antiquewhite;
+      font-size:small;
+      text-align: center;
+    }
+
+    .logos_ipn{
+      width: 50px;
+      height: 50px;
+    }
+
+    .info-foot{
+      font-size: small;
+      text-align: center;
+      color:antiquewhite;
+      margin: 0px;
+    }
+
+    .logoMed{
+      width:12%;
+      height:12%;
+      margin: 0 10px 0 10px;
+  }
+} 
+
 
 
