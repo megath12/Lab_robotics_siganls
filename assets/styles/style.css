@@ -55,14 +55,14 @@ font-family: 'Roboto Mono', monospace;
     color:rgb(127, 255, 197);
 }
 
-
 .logo-ig{
     color: antiquewhite;
     /*     color:linear-gradient(to bottom,#4E31AA, #77037B);*/
      margin: 9px 15px 15px 15px;;
 }
+
 .logo-ig:hover{
-    color: #aa5cdf;
+    color: #bc84e2;
 }
 
 
