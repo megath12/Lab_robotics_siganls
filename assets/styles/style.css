@@ -7,10 +7,15 @@ font-family: 'Roboto Mono', monospace;
 
 
 *{
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
   }
+
+    body{
+      min-height: 100vh;
+      overflow-x:hidden;
+      font-family: 'Roboto', sans-serif;
+    }
 
 
   .navbar-brand{
@@ -81,7 +86,7 @@ font-family: 'Roboto Mono', monospace;
 
 .footer{
     background-color:rgb(34, 34, 34);
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 100%;
 }

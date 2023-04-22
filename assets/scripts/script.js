@@ -11,27 +11,27 @@ let footer=this.document.getElementById("foot-er")
 
 nav.innerHTML=`
 <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark" data-bs-theme="dark">
-<div class="container-fluid">
-  <img src="./assets/images/logo_lab.png" alt="Logo Medical Robotics & Biosignals Lab" class="logoMed">
-  <h1 class="navbar-brand">Medical Robotics & Biosignals Lab</h1>
-  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse navega" id="navbarNavAltMarkup">
-    <div class="div-nav navbar-nav ms-auto">
-      <a class="nav-link" href="./index.html">Inicio</a>
-      <a class="nav-link" href="./publicaciones.html">Publicaciones</a>
-      <a class="nav-link" href="./integrantes.html">Integrantes</a>
-      <a class="nav-link" href="./reconocimientos.html">Reconocimientos</a>
-<!--             <a class="nav-link" href="./investigacion.html">Líneas de Investigación</a> -->
-      <a class="nav-link" href="./contacto.html">Contacto</a>
-      <a class="logo-ig" href="https://www.instagram.com/med_robotics_biosignals_lab/?igshid=YmMyMTA2M2Y%3D" target="_blank"><i class="fa-brands fa-instagram fa-xl"></i></a>
-      <a class="logo-yt " href="https://www.instagram.com/med_robotics_biosignals_lab/?igshid=YmMyMTA2M2Y%3D" target="_blank"><i class="fa-brands fa-youtube fa-xl"></i></a>
+  <div class="container-fluid">
+    <img src="./assets/images/logo_lab.png" alt="Logo Medical Robotics & Biosignals Lab" class="logoMed">
+    <h1 class="navbar-brand">Medical Robotics & Biosignals Lab</h1>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse navega" id="navbarNavAltMarkup">
+      <div class="div-nav navbar-nav ms-auto">
+        <a class="nav-link" href="./index.html">Inicio</a>
+        <a class="nav-link" href="./publicaciones.html">Publicaciones</a>
+        <a class="nav-link" href="./integrantes.html">Integrantes</a>
+        <a class="nav-link" href="./reconocimientos.html">Reconocimientos</a>
+  <!--             <a class="nav-link" href="./investigacion.html">Líneas de Investigación</a> -->
+        <a class="nav-link" href="./contacto.html">Contacto</a>
+        <a class="logo-ig" href="https://www.instagram.com/med_robotics_biosignals_lab/?igshid=YmMyMTA2M2Y%3D" target="_blank"><i class="fa-brands fa-instagram fa-xl"></i></a>
+        <a class="logo-yt " href="https://www.instagram.com/med_robotics_biosignals_lab/?igshid=YmMyMTA2M2Y%3D" target="_blank"><i class="fa-brands fa-youtube fa-xl"></i></a>
+      </div>
     </div>
   </div>
-</div>
 </nav>
-</header>
+
 `;
 
 footer.innerHTML=`
