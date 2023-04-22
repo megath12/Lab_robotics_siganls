@@ -13,9 +13,10 @@
 }
 
 .direccion{
-    text-align: right;
+    text-align: center;
     vertical-align: auto;
     margin: auto;
+    font-size: large;
 }
 
 .direccion h3{
@@ -33,10 +34,12 @@
     text-align: center;
     align-items: center;
     margin: auto;
+    font-size: large;
+
 }
 
 .formu input{
-    width: 60%;
+    width: 70%;
     height: 40px;
     border-radius: 8px;
     text-align: center;
@@ -44,7 +47,7 @@
 }
 
 .formu textarea{
-    width: 60%;
+    width: 70%;
     height: 100px;
     border-radius: 8px;
     border-color:#616ef99d;
@@ -58,6 +61,7 @@
     text-align: center;
     vertical-align: auto;
     margin: auto;
+    font-size: large;
 }
 
 .contacto h3{
@@ -75,6 +79,16 @@
 
 @media only screen and (max-width: 600px) {
     #map {
-      width: 85%;
+      width: 100%;
+    }
+    .contacto{
+        font-size: medium;
+    }
+    .formu{
+        font-size: medium;
+
+    }
+    .direccion{
+        font-size: medium;
     }
   }

@@ -21,5 +21,5 @@ function iniciarMap(){
     });
 }
 
-iniciarMap();
+/* iniciarMap(); */
 
