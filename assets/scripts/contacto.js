@@ -1,5 +1,5 @@
 
-/* Documentacion
+/* Guias
     https://developers.google.com/maps/documentation/javascript/overview?hl=es-419#maps_map_simple-html
     Google maps 
 

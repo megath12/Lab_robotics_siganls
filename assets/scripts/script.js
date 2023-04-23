@@ -24,7 +24,7 @@ nav.innerHTML=`
         <a class="nav-link" href="./integrantes.html">Integrantes</a>
         <a class="nav-link" href="./reconocimientos.html">Reconocimientos</a>
   <!--             <a class="nav-link" href="./investigacion.html">Líneas de Investigación</a> -->
-        <a class="nav-link" href="./contacto.html">Contacto</a>
+        <a class="nav-link" href="./contacto.html">Contáctanos</a>
         <a class="logo-ig" href="https://www.instagram.com/med_robotics_biosignals_lab/?igshid=YmMyMTA2M2Y%3D" target="_blank"><i class="fa-brands fa-instagram fa-xl"></i></a>
         <a class="logo-yt " href="https://www.instagram.com/med_robotics_biosignals_lab/?igshid=YmMyMTA2M2Y%3D" target="_blank"><i class="fa-brands fa-youtube fa-xl"></i></a>
       </div>
