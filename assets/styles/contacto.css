@@ -13,7 +13,7 @@
 }
 
 .direccion{
-    text-align: center;
+    text-align: left;
     vertical-align: auto;
     margin: auto;
     font-size: large;
@@ -64,7 +64,8 @@
     vertical-align: auto;
     margin: auto;
     font-size: large;
-}
+    padding: 0 0 0 50px; 
+ }
 
 .contacto h3{
     color:  #0494c8 ;
@@ -81,10 +82,12 @@
 
 @media only screen and (max-width: 600px) {
     #map {
-      width: 100%;
+      width: 90%;
     }
     .contacto{
         font-size: medium;
+        text-align: center;
+        padding: 0;
     }
     .formu{
         font-size: medium;
@@ -92,5 +95,6 @@
     }
     .direccion{
         font-size: medium;
+        text-align: center;
     }
   }
