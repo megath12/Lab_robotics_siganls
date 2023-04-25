@@ -78,6 +78,13 @@
     color: azure;
 }
 
+.boton:hover{
+    background-color:blue;
+}
+
+.boton:active{
+    background-color:blue;
+}
 
 
 @media only screen and (max-width: 600px) {
