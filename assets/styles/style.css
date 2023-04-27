@@ -5,6 +5,14 @@ font-family: 'Roboto', sans-serif;
 font-family: 'Roboto Mono', monospace; 
 */
 
+:root{
+  --color-guinda:#830433 ;
+  --color-rey: #040559 ;
+  --color-cielo: #0e97b7 ;
+  --color-verde: #3bb166 ;
+  --color-neg: #15111b ;
+}
+
 
 *{
     margin: 0;

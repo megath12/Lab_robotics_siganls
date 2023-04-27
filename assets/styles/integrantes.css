@@ -1,0 +1,76 @@
+
+
+
+.card{
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 18px;
+}
+
+.invs-t img{
+    border-radius: 12px;
+    margin: 10px 0 10px 0;
+}
+
+.invs-t{
+    border-color: var(--color-guinda);
+   /*  border-width: 2px; */
+    /* background-color: var(--color-guinda); */
+    color:var(--color-guinda);
+    /* padding: 10px 0 0 10px; */
+}
+
+.btn{
+    background-color: var(--color-guinda);
+    border-color: var(--color-guinda);
+}
+.btn:hover{
+    color: var(--color-guinda);
+    background-color: aliceblue;
+    border-color: var(--color-guinda);
+}
+
+
+
+.invs-h{
+    color: var(--color-guinda);
+    text-align: center;
+    margin: auto;
+    font-size: medium;
+}
+
+.invs-b{
+    color: var(--color-neg);
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    font-size: small;
+}
+
+
+.invs-b ul{
+    text-align:left;
+}
+
+.invs-b a{
+    color: var(--color-cielo);
+    padding:0 20px 0 20px;
+    text-align: center;
+    font-size: medium;
+    font-weight: 500;
+}
+
+.invs-b img{
+    width: 15rem;
+}
+
+.modal-content{
+    background-color:azure;
+}
+
+@media (max-width: 600px) {
+    .invs-t{
+        margin: 15px 0 15px 55px;
+    }
+  }
