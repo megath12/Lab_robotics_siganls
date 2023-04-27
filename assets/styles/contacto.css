@@ -68,7 +68,7 @@
  }
 
 .contacto h3{
-    color:  #0494c8 ;
+    color:var(--color-rey) ;
 }
 
 .boton{

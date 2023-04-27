@@ -1,25 +1,43 @@
 
 
+.investigadores{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    color: var(--color-guinda);
+    margin-left: 170px;
+}
+
 
 .card{
     text-align: center;
     align-items: center;
     margin: auto;
     border-radius: 18px;
+    background-color: rgba(212, 163, 103, 0.134);
+}
+
+.card img{
+    width: 220px;
+    height: 220px;
 }
 
 .invs-t img{
-    border-radius: 12px;
+    border-radius: 110px;
     margin: 10px 0 10px 0;
 }
 
 .invs-t{
-    border-color: var(--color-guinda);
-   /*  border-width: 2px; */
+    border-color:rgba(100, 23, 23, 0.09);
+/*     border-width: 0.1px;*/
     /* background-color: var(--color-guinda); */
     color:var(--color-guinda);
     /* padding: 10px 0 0 10px; */
 }
+
+
+
+
 
 .btn{
     background-color: var(--color-guinda);
@@ -62,15 +80,37 @@
 }
 
 .invs-b img{
-    width: 15rem;
+    width: 180px; 
+    height: 220px;
 }
 
-.modal-content{
-    background-color:azure;
+/* .modal-content{
+    background-color:rgb(193, 193, 193);
+} */
+
+
+.estudiantes{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    color: var(--color-cielo);
+    margin-left: 60px;
 }
+
 
 @media (max-width: 600px) {
     .invs-t{
-        margin: 15px 0 15px 55px;
+        margin: 15px 0 15px 65px;
+    }
+    .card-title{
+        font-size: medium;
+    }
+    .investigadores{
+        font-size: 22px;
+        margin: 0 0 0 120px;
+    }
+    .estudiantes{
+        font-size: 22px;
+        margin: 0 0 0 120px;
     }
   }
