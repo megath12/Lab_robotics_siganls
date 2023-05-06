@@ -5,7 +5,7 @@
     font-weight: bolder;
     font-size: 30px;
     color: var(--color-guinda);
-    margin-left: 170px;
+    margin-left: 570px;
 }
 
 
@@ -14,7 +14,8 @@
     align-items: center;
     margin: auto;
     border-radius: 18px;
-    background-color: rgba(212, 163, 103, 0.134);
+/*     background-color: rgba(212, 163, 103, 0.134);*/
+    background-color:rgba(0, 179, 255, 0.059);
 }
 
 .card img{
@@ -40,8 +41,9 @@
 
 
 .btn{
-    background-color: var(--color-guinda);
+    background-color:rgba(0, 255, 255, 0.387);
     border-color: var(--color-guinda);
+    border-color: aliceblue;
 }
 .btn:hover{
     color: var(--color-guinda);
@@ -94,7 +96,7 @@
     font-weight: bolder;
     font-size: 30px;
     color: var(--color-cielo);
-    margin-left: 60px;
+    margin-left: 570px;
 }
 
 

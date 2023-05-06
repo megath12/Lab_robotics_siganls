@@ -81,12 +81,19 @@ font-family: 'Roboto Mono', monospace;
 
 .logo-yt{
     color: antiquewhite;
-    margin: 9px 15px 0 15px;;
+    margin: 9px 15px 10px 15px;;
 }
 .logo-yt:hover{
     color: rgb(248, 2, 2);
 }
 
+.logo-aw{
+  color: antiquewhite;
+  margin: 9px 15px 15px 15px;;
+}
+.logo-aw:hover{
+  color:rgb(255, 191, 0);
+}
 
 
 
