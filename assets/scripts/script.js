@@ -20,7 +20,7 @@ nav.innerHTML=`
     <div class="collapse navbar-collapse navega" id="navbarNavAltMarkup">
       <div class="div-nav navbar-nav ms-auto">
         <a class="nav-link" href="./index.html">Inicio</a>
-        <a class="nav-link" href="./publicaciones.html">Publicaciones</a>
+        <a class="nav-link" href="./publicaciones.html">Investigación</a>
         <a class="nav-link" href="./integrantes.html">Nosotros</a>
   <!--             <a class="nav-link" href="./investigacion.html">Líneas de Investigación</a> -->
         <a class="nav-link" href="./contacto.html">Contáctanos</a>
