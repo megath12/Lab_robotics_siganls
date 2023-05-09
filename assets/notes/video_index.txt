@@ -1,4 +1,5 @@
-Medical Robotics and Biosignals Lab implementa tecnicas de matematica aplicada y novedosas tecnologías para el desarrollo de soluciones biomedicas integrales.
+Medical Robotics and Biosignals Lab implementa tecnicas de matematica aplicada y novedosas
+ tecnologías para el desarrollo de soluciones biomedicas integrales.
 
 
 1 Diseño, modelado, control de protesis y ortesis roboticas
