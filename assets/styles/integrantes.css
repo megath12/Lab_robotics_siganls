@@ -1,5 +1,22 @@
 
 
+.card{
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 18px;
+/*     background-color: rgba(212, 163, 103, 0.134);*/
+   /*  background-color:rgba(0, 179, 255, 0.059); */
+}
+
+.card img{
+    width: 220px;
+    height: 220px;
+}
+
+
+
+
 .investigadores{
     font-family: 'Open Sans', sans-serif;
     font-weight: bolder;
@@ -9,27 +26,14 @@
 }
 
 
-.card{
-    text-align: center;
-    align-items: center;
-    margin: auto;
-    border-radius: 18px;
-/*     background-color: rgba(212, 163, 103, 0.134);*/
-    background-color:rgba(0, 179, 255, 0.059);
-}
-
-.card img{
-    width: 220px;
-    height: 220px;
-}
-
 .invs-t img{
     border-radius: 110px;
     margin: 10px 0 10px 0;
 }
 
 .invs-t{
-    border-color:rgba(100, 23, 23, 0.09);
+    border-color:var(--color-guinda);
+    border-width: 0px;
 /*     border-width: 0.1px;*/
     /* background-color: var(--color-guinda); */
     color:var(--color-guinda);
@@ -37,18 +41,18 @@
 }
 
 
+.invs-t button{
+    color: var(--color-guinda);
+    background-color: rgb(255, 255, 255);
+    border-width: 1px;
+    border-color: rgba(85, 23, 23, 0.227);
+    font-size: large;
+}
 
-
-
-.btn{
-    background-color:rgba(0, 145, 255, 0.387);
+.invs-t button:hover{
+    background-color:var(--color-guinda);
     border-color: var(--color-guinda);
     border-color: aliceblue;
-}
-.btn:hover{
-    color: var(--color-guinda);
-    background-color: aliceblue;
-    border-color: var(--color-guinda);
 }
 
 
@@ -100,9 +104,40 @@
 }
 
 
+.estu-t img{
+    border-radius: 110px;
+    margin: 10px 0 10px 0;
+}
+
+.estu-t{
+    border-color:var(--color-cielo);
+    border-width: 1px;
+/*     border-width: 0.1px;*/
+    /* background-color: var(--color-guinda); */
+    color:var(--color-cielo);
+    /* padding: 10px 0 0 10px; */
+}
+
+
+
+.estu-t button{
+    background-color:var(--color-cielo);
+    border-color: var(--color-cielo);
+    border-color: aliceblue;
+}
+
+.estu-h{
+    color: var(--color-cielo);
+    text-align: center;
+    margin: auto;
+    font-size: medium;
+}
+
+
+
 @media (max-width: 600px) {
     .invs-t{
-        margin: 15px 0 15px 65px;
+        margin: 15px 0 15px 70px;
     }
     .card-title{
         font-size: medium;
@@ -113,6 +148,7 @@
     }
     .estudiantes{
         font-size: 22px;
+        /* font-weight: 600; */
         margin: 0 0 0 120px;
     }
   }
