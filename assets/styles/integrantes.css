@@ -15,13 +15,16 @@
 }
 
 
+/* -------------------------------------INVESTIGADORES-------------------------- */
+
+
 
 
 .investigadores{
     font-family: 'Open Sans', sans-serif;
     font-weight: bolder;
     font-size: 30px;
-    color: var(--color-guinda);
+    color: var(--color-cielo);
     margin-left: 570px;
 }
 
@@ -32,33 +35,38 @@
 }
 
 .invs-t{
-    border-color:var(--color-guinda);
+    border-color:var(--color-cielo);
     border-width: 0px;
 /*     border-width: 0.1px;*/
     /* background-color: var(--color-guinda); */
-    color:var(--color-guinda);
+    color:var(--color-cielo);
     /* padding: 10px 0 0 10px; */
 }
 
 
 .invs-t button{
-    color: var(--color-guinda);
-    background-color: rgb(255, 255, 255);
-    border-width: 1px;
-    border-color: rgba(85, 23, 23, 0.227);
-    font-size: large;
-}
-
-.invs-t button:hover{
-    background-color:var(--color-guinda);
-    border-color: var(--color-guinda);
+    background-color:var(--color-cielo);
+    border-color: var(--color-cielo);
     border-color: aliceblue;
 }
 
+.invs-t button:hover{
 
+    color: var(--color-cielo);
+    background-color: rgb(255, 255, 255);
+    border-width: 1px;
+    border-color:var(--color-cielo);
+    /* font-size: large; */
+}
+
+.invs-t button:active{
+    background-color:var(--color-cielo);
+    border-color: var(--color-cielo);
+    border-color: aliceblue;
+}
 
 .invs-h{
-    color: var(--color-guinda);
+    color: var(--color-cielo);
     text-align: center;
     margin: auto;
     font-size: medium;
@@ -95,11 +103,17 @@
 } */
 
 
+
+/* -------------------------------------ESTUDIANTES-------------------------- */
+
+
+
+
 .estudiantes{
     font-family: 'Open Sans', sans-serif;
     font-weight: bolder;
     font-size: 30px;
-    color: var(--color-cielo);
+    color: var(--color-guinda);
     margin-left: 570px;
 }
 
@@ -111,7 +125,7 @@
 
 .estu-t{
     border-color:var(--color-cielo);
-    border-width: 1px;
+    border-width: 0px;
 /*     border-width: 0.1px;*/
     /* background-color: var(--color-guinda); */
     color:var(--color-cielo);
@@ -121,17 +135,68 @@
 
 
 .estu-t button{
-    background-color:var(--color-cielo);
-    border-color: var(--color-cielo);
+    background-color:var(--color-guinda);
+    border-color: var(--color-guinda);
+    color: rgb(255, 255, 255);
+}
+
+.estu-t button:hover{
+    background-color:rgb(255, 255, 255);
+    border-color: var(--color-guinda);
+    color:var(--color-guinda)
+}
+
+.estu-t button:active{
+    background-color:var(--color-guinda);
+    border-color: var(--color-guinda);
     border-color: aliceblue;
 }
 
+
+
+
 .estu-h{
-    color: var(--color-cielo);
+    color: var(--color-guinda);
     text-align: center;
     margin: auto;
     font-size: medium;
 }
+
+
+.estu-h{
+    color: var(--color-guinda);
+    text-align: center;
+    margin: auto;
+    font-size: medium;
+}
+
+.estu-b{
+    color: var(--color-neg);
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    font-size: small;
+}
+
+
+.estu-b ul{
+    text-align:left;
+}
+
+.estu-b a{
+    color: var(--color-guinda);
+    padding:0 20px 0 20px;
+    text-align: center;
+    font-size: medium;
+    font-weight: 500;
+}
+
+.estu-b img{
+    width: 180px; 
+    height: 220px;
+}
+
+
 
 
 
