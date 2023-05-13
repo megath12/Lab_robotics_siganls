@@ -148,8 +148,8 @@
 
 .estu-t button:active{
     background-color:var(--color-guinda);
-    border-color: var(--color-guinda);
     border-color: aliceblue;
+    color: white;
 }
 
 
@@ -202,6 +202,9 @@
 
 @media (max-width: 600px) {
     .invs-t{
+        margin: 15px 0 15px 70px;
+    }
+    .estu-t{
         margin: 15px 0 15px 70px;
     }
     .card-title{
