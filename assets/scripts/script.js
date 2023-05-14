@@ -26,8 +26,8 @@ nav.innerHTML=`
           </a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="./publicaciones.html">Artículos</a></li>
-            <li><a class="dropdown-item" href="#">Áreas</a></li>
-            <li><a class="dropdown-item" href="#">Proyectos</a></li>
+            <li><a class="dropdown-item" href="./investigacion.html">Áreas</a></li>
+            <li><a class="dropdown-item" href="./proyectos.html">Proyectos</a></li>
           </ul>
         </li>
         <li class="nav-item dropdown">
