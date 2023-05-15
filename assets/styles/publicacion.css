@@ -1,15 +1,15 @@
 @import url(http://fonts.googleapis.com/css?family=Calibri:400,300,700);
 
 body {
-    background-color: #D32F2F;
-    font-family: 'Calibri', sans-serif !important
+    background-color:rgba(245, 222, 179, 0.333);
+    font-family:Georgia, 'Times New Roman', Times, serif;
 } 
 
 .mt-100{ 
-   margin-top:100px;
+   margin-top:0px;
 }
 .mb-100{
-   margin-bottom:100px;
+   margin-bottom:0px;
 }
 .card {
    position: relative;
@@ -46,10 +46,11 @@ ul.list-style-none li {
 }
 
 ul.list-style-none li a {
-   color: #673AB7;
+   color: var(--color-guinda);
    padding: 8px 0px;
    display: block;
    text-decoration: none;
+   font-weight: bold;
 }
 
 .m-t-5 {
@@ -59,3 +60,24 @@ ul.list-style-none li a {
 .w-30px {
    width: 30px;
 }
+
+.pencil{
+   position: relative;
+   top: 15px;
+   left: -20px;
+   color: var(--color-guinda);
+}
+
+.pub-aut{
+   font-style: italic;
+}
+
+.pub-site{
+   color:darkred;
+   /* font-weight:500; */
+}
+
+.pub-doi{
+   color: rgb(156, 156, 156);
+}
+
