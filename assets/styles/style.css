@@ -65,7 +65,8 @@ font-family: 'Roboto Mono', monospace;
   }
   
 .nav-link:hover{
-    color:rgb(127, 255, 197);
+    /* color:rgb(127, 255, 197); */
+    color:aqua;
 }
 
 .logo-ig{
@@ -94,6 +95,11 @@ font-family: 'Roboto Mono', monospace;
 .logo-aw:hover{
   color:rgb(255, 191, 0);
 }
+
+.dropdown-item:hover{
+  color: rgb(0, 255, 140);
+}
+
 
 
 

@@ -41,7 +41,6 @@ nav.innerHTML=`
         </li>
         <a class="nav-link" href="./contacto.html">Contáctanos</a>
         <a class="logo-ig" href="https://www.instagram.com/med_robotics_biosignals_lab/?igshid=YmMyMTA2M2Y%3D" target="_blank"><i class="fa-brands fa-instagram fa-xl"></i></a>
-        <a class="logo-yt " href="https://www.instagram.com/med_robotics_biosignals_lab/?igshid=YmMyMTA2M2Y%3D" target="_blank"><i class="fa-brands fa-youtube fa-xl"></i></a>
       </div>
     </div>
   </div>
@@ -50,6 +49,7 @@ nav.innerHTML=`
 `;
 
 footer.innerHTML=`
+<br>
 <div class="row">
 <div class="imgs-ipn col-lg-7 col-md-7 col-sm-12">
   <a href="https://www.upibi.ipn.mx" target="_blank"><img src="./assets/images/Logo_upibi.png" alt="UPIBI Logo" class="logos_ipn"></a>
@@ -62,6 +62,7 @@ footer.innerHTML=`
   <p>© 2023 Medical Robotics & Biosignals Lab</p>
 </div>
 </div>
+<br>
 `;
 
 
