@@ -2,7 +2,7 @@
 
 
 a{text-decoration:none}
-h4{text-align:center;margin:5px 0;color:#444}
+h4{text-align:center;margin:5px 0;color:#626262;font-size:22px;padding: 20px;}
 .main-timeline{position:relative}
 .main-timeline:before{content:"";width:5px;height:100%;border-radius:20px;margin:0 auto;background:#3f453d;position:absolute;top:0;left:0;right:0}
 .main-timeline .timeline{display:inline-block;margin-bottom:50px;position:relative}
@@ -17,7 +17,7 @@ h4{text-align:center;margin:5px 0;color:#444}
 .main-timeline .title{font-size:17px;font-weight:600;color:var(--color-verde);text-transform:uppercase;margin:0 0 5px}
 .main-timeline .description{display:inline-block;font-size:16px;color:#404040;line-height:20px;letter-spacing:1px;margin:0}
 .main-timeline .timeline:nth-child(even) .timeline-icon{left:auto;right:30%}
-.main-timeline .timeline:nth-child(even) .timeline-icon:before{right:auto;left:-50px}
+.main-timeline .timeline:nth-child(even) .timeline-icon:before{right:auto;left:-100px}
 .main-timeline .timeline:nth-child(even) .timeline-icon:after{right:auto;left:-30px}
 .main-timeline .timeline:nth-child(even) .timeline-content{float:left}
 .main-timeline .timeline:nth-child(even) .timeline-content:before{left:auto;right:35px;transform:rotateY(180deg)}
@@ -76,4 +76,16 @@ h4{margin:0}
 a[href="https://www.google.com"] {
   pointer-events: none;
   cursor: default;
+}
+
+.tit-dis{
+  font-size: larger;
+  color: aqua;
+}
+
+
+@media (max-width:600px){
+  h4{
+    font-size: medium;
+  }
 }
