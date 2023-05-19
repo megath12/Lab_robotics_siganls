@@ -81,3 +81,40 @@ ul.list-style-none li a {
    color: rgb(156, 156, 156);
 }
 
+.pub-date{
+   position: relative;
+   left: 440px;
+   top:-120px;
+}
+
+@media (max-width: 600px) {
+   .pencil{
+      left: -40px;
+   }
+   .pub-doi{
+      font-size: smaller;
+   }
+   .card-body{
+      position: relative;
+      left: -50px;
+   }
+   .pub-date{
+      /* left:220px;
+      top: 20px; */
+      display:none
+   }
+   .pub-aut{
+      font-size: small;
+   }
+   .pub-site{
+      font-size: small;
+   }
+   a{
+      font-size: medium;
+   }
+/*    .card .card-title {
+      text-align: center; 
+      align-items: center;
+   } */
+ }
+ 

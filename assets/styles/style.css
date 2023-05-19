@@ -76,7 +76,7 @@ font-family: 'Roboto Mono', monospace;
 }
 
 .logo-ig:hover{
-    color: #c714c4;
+    color: #ff00fb;
 }
 
 
@@ -100,6 +100,9 @@ font-family: 'Roboto Mono', monospace;
   color: rgb(0, 255, 140);
 }
 
+.dropdown-item:active{
+  background-color: rgb(115, 115, 115);
+}
 
 
 
