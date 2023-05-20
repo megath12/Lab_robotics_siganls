@@ -1,47 +1,9 @@
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
 
-  .contenedor {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: var(--color-cielo);
-    color: #fff;
-  }
-  
-  .mitad-texto {
-    flex-basis: 50%;
-    padding: 20px;
-    box-sizing: border-box;
-  }
 
-  .mitad-texto{
-    font-size: xx-large;
-  }
-  
-  .mitad-imagen {
-    flex-basis: 50%;
-    padding: 20px;
-    box-sizing: border-box;
-  }
+.carousel-item{
+  width: 50%;
+}
 
-  .mitad-imagen img{
-    border-radius: 25px;
-  }
-  
-  /* Media query para pantallas móviles */
-  @media (max-width: 767px) {
-    .contenedor {
-      flex-direction: column;
-    }
-    
-    .mitad-texto,
-    .mitad-imagen img{
-      width:100%;
-      flex-basis: 100%;
-    }
-  }
+
 
