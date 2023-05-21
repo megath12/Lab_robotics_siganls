@@ -1,0 +1,115 @@
+/* *{
+    display: inline-block;
+}
+ */
+
+ body{
+    overflow-x:hidden;
+ }
+
+
+.ubicacion{
+    margin: 20px;
+}
+
+.direccion{
+    text-align: center;
+    vertical-align: auto;
+    margin: auto;
+    font-size: 18px;
+   /*  padding: 0 120px 0 0; */
+   /*  */padding: 20px;
+
+}
+
+.direccion h3{
+    color: var(--color-cielo);
+    text-align: center;
+    font-size: 24px;
+    /* padding: 0 120px 0 0; */
+}
+
+#map{
+    width: 85%;
+    height: 400px;
+    margin: auto;
+    border-radius: 15px;
+    padding: 20px 0 20px 0;
+}
+
+.formu{
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    font-size: large;
+}
+
+.formu input{
+    width: 80%;
+    height: 40px;
+    border-radius: 8px;
+    text-align: center;
+    border-color: #07229a36;
+}
+
+.formu textarea{
+    width: 80%;
+    height: 100px;
+    border-radius: 8px;
+    border-color: #07229a4e;
+    text-align: center;
+    vertical-align: auto;
+}
+
+.formu label{
+    color:var(--color-rey);
+}
+
+.contacto{
+    text-align: center;
+    vertical-align: auto;
+    margin: auto;
+    font-size: large;
+    padding: 0 0 0 50px; 
+    font-size: 18px;
+ }
+
+.contacto h3{
+    color:var(--color-rey);
+    font-size: 24px;
+}
+
+.boton{
+    padding: 10px;
+    border-radius: 7px;
+    background-color:var(--color-rey);
+    color: azure;
+}
+
+.boton:hover{
+    background-color:blue;
+}
+
+.boton:active{
+    background-color:blue;
+}
+
+
+@media only screen and (max-width: 600px) {
+    #map {
+      width: 90%;
+    }
+    .contacto{
+        font-size: medium;
+        text-align: center;
+        padding: 0 0 60px 0;
+    }
+    .formu{
+        font-size: medium;
+
+    }
+    .direccion{
+        font-size: medium;
+        text-align: center;
+    }
+  }

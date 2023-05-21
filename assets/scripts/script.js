@@ -39,7 +39,7 @@ nav.innerHTML=`
             <li><a class="dropdown-item" href="./reconocimientos.html">Reconocimintos</a></li>
           </ul>
         </li>
-        <a class="nav-link" href="./contacto.html">Contáctanos</a>
+        <a class="nav-link" href="./contactanos.html">Contáctanos</a>
         <a class="logo-ig" href="https://www.instagram.com/med_robotics_biosignals_lab/?igshid=YmMyMTA2M2Y%3D" target="_blank"><i class="fa-brands fa-instagram fa-xl"></i></a>
       </div>
     </div>

@@ -19,7 +19,8 @@ h4{
    padding: 30px 0 30px 0;
    font-weight: bold;
    color: rgb(255, 255, 255);
-   background-color:var(--color-guinda)
+   background-color:var(--color-guinda);
+   border-radius: 15px 0 15px 0;
 }
 
 li{
@@ -58,7 +59,7 @@ a{
 .pub-date{
    text-align: right;
    position: relative;
-   top: -135px;
+   top: -40px;
    color: rgb(94, 94, 94);
 }
 
