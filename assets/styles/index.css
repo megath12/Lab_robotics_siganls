@@ -1,9 +1,118 @@
 
 
+.descrip{
+  background-color: black;
+}
 
-.carousel-item{
-  width: 50%;
+#descripcion{
+  color: rgb(255, 255, 255);
+  padding: 150px 50px 50px 100px;
+  text-align: left;
+  font-size: 23px;
+}
+
+.medusa{
+  width: 1%;
+  opacity:0.5;
+}
+
+.imde{
+  display: none;
 }
 
 
+.convoca{
+/*   background-color:rgba(3, 3, 69, 0.89);
+  color:wheat;*/
+  background-color: rgb(244, 237, 228);
+  color: var(--color-rey);
+  font-weight: bold;
+  text-align: center;
+  font-size: 23px;
+  padding: 30px 0 10px 0;
+}
 
+.con-up{
+  padding: 40px;
+  font-size: 21px;
+  text-align: center;
+}
+
+.con-up i{
+  font-size: 30px;
+}
+.con-up a{
+  text-decoration: none;
+  color: var(--color-cielo);
+}
+
+.con-up a:hover{
+  color: var(--color-verde);
+}
+
+
+.con-ci{
+  padding: 50px;
+  font-size: 21px;
+  text-align: center;
+  vertical-align: auto;
+}
+
+.con-ci i{
+  font-size: 30px;
+}
+
+.con-ci a{
+  text-decoration: none;
+  color: var(--color-cielo);
+}
+
+.con-ci a:hover{
+  color: var(--color-guinda);
+}
+
+
+@media (max-width:600px){
+
+  #descripcion{
+    height: 100px;
+    padding: 30px 20px 50px 20px;
+    text-align: left;
+    font-size: 15px;
+    color:rgb(208, 208, 208);
+  }
+  
+  .medusa{
+    display: none;
+  }
+
+  .imde{
+    background-color: black;
+    display:flex;
+  }
+
+  .imde img{
+    width:100%;
+    height: 20%;
+    opacity: 0.1;
+  }
+
+
+  .convoca{
+    font-size: 15px;
+    padding: 30px 0 5px 0;
+  }
+
+  .con-up{
+    padding: 30px;
+    font-size: 15px;
+  }
+
+  .con-ci{
+    padding: 20px 50px 30px 50px;
+    font-size: 15px;
+    vertical-align: auto;
+  }
+
+
+}
