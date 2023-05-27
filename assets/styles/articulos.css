@@ -81,8 +81,8 @@ a{
    }
    .pub-date{
       position: relative;
-      top: -50px;
-      font-size: small;
+      top: -10px;
+      font-size: 12px;
    }
    .pencil{
       font-size: smaller;
