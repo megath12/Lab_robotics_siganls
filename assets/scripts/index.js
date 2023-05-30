@@ -14,3 +14,8 @@ function mostrarTexto() {
 
 var intervalo = setInterval(mostrarTexto, 100); // Ajusta el valor para controlar la velocidad de aparición
 
+
+
+function registroCerrado(){
+  alert("Evento Concluido")
+}

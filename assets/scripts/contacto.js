@@ -35,3 +35,55 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 var marker = L.marker([19.515069, -99.127783]).addTo(map);
 
+
+
+
+document.addEventListener("DOMContentLoaded", function() {
+  var total=0;
+  const regexCorreo = /[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}/;
+  var nombre=document.getElementById("nombre").value;
+  var correo=document.getElementById("correo").value;
+  var mensaje=document.getElementById("mensaje").value;
+  if (nombre.length > 0  && mensaje.length > 10) {
+    total++;
+  }
+  if(!regexCorreo.test(correo)& total==1){
+    console.log(correo)
+    var com=document.getElementById("enviado");
+    com.innerHTML=`
+    <div class="alert alert-success" role="alert">
+      Datos enviados
+    </div>
+    `;
+  }
+});
+
+/* function formu(){
+  var total=0;
+  const regexCorreo = /[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}/;
+  var nombre=document.getElementById("nombre").value;
+  var correo=document.getElementById("correo").value;
+  var mensaje=document.getElementById("mensaje").value;
+  if (nombre.length > 0  && mensaje.length > 10) {
+    total++;
+    console.log(nombre)
+    var com=document.getElementById("enviado");
+    com.innerHTML=`
+    <div class="alert alert-success" role="alert">
+      Datos enviados
+    </div>
+    `;
+  }
+  if(!regexCorreo.test(correo)& total==1){
+    console.log(correo)
+    var com=document.getElementById("enviado");
+    com.innerHTML=`
+    <div class="alert alert-success" role="alert">
+      Datos enviados
+    </div>
+    `;
+  }
+}
+
+
+ */

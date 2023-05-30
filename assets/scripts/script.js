@@ -36,7 +36,7 @@ nav.innerHTML=`
           </a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="./integrantes.html">Miembros</a></li>
-            <li><a class="dropdown-item" href="./reconocimientos.html">Reconocimintos</a></li>
+            <li><a class="dropdown-item" href="./reconocimientos.html">Reconocimientos</a></li>
           </ul>
         </li>
         <a class="nav-link" href="./contactanos.html">Contáctanos</a>

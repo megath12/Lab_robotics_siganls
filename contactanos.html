@@ -32,29 +32,31 @@
             <div class="contacto col-lg=5 col-md-5 col-sm-12">
                 <h3><b><i class="fa-solid fa-envelope"></i>&nbsp&nbsp Escríbenos</b></h3><br>
                 <!-- <p> ¿Tienes alguna consulta, pregunta o sugerencia?</p> -->
-                <p>Llena el formulario </p>
-                <p>¡Pronto nos pondremos en contacto contigo!</p><br>
-                <br>
+                <span>Llena el formulario</span><br>
+                <span>¡Pronto nos pondremos en contacto contigo!</span>
+                <br><br><br>
                 <div class="formu">
                     <form
-                    action="https://formspree.io/f/mgebrzwb"
+                      action="https://formspree.io/f/mgebrzwb"
                     method="POST"
                     >
                     <label for="text">Nombre</label><br>
-                    <input type="text" name="text" minlength="3" required>    
+                    <input type="text" id="nombre" name="text" minlength="3" required>    
                     <br><br>
 
                     <label for="email">E-mail</label><br>
-                    <input type="email" name="email" pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}" required>      
+                    <input type="email" id="correo" name="email" pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}" required>      
                     <br><br>
 
                     <label for="message">Mensaje</label><br>
-                    <textarea name="message" minlength="10" required></textarea> 
+                    <textarea name="message" id="mensaje" minlength="10" required></textarea> 
                     <br><br>
 
-                    <button type="submit" class="boton">Enviar</button>
+                    <button type="submit" type="reset" class="boton">Enviar</button>
                     </form>
-                </div>    
+                    <div id="enviado"></div>
+                </div>
+                <div id="forli"></div>    
             </div>
 
             <div class="formu col-lg=7 col-md-7 col-sm-12">
@@ -65,11 +67,14 @@
                     <br>
                     <h3 ><b><i class="fa-solid fa-location-dot"></i>&nbsp&nbsp Ubicación </b></h3>
                     <br>
-                    <p>Unidad Profesional Interdisciplinaria de Biotecnología</p>
-                    <!-- <p>Instituto Politécnico Nacional</p> -->
+                    <span>Unidad Profesional Interdisciplinaria de Biotecnología</span><br>
+                    <span>Av. Acueducto, La Laguna Ticoman</span><br>
+                    <span>Gustavo A. Madero, CP. 07340</span><br>
+                    <span>Ciudad de México, México</span>
+                    <!-- <p>Unidad Profesional Interdisciplinaria de Biotecnología</p>
                     <p>Av. Acueducto, La Laguna Ticoman</p>
                     <p>Gustavo A. Madero, CP. 07340</p>
-                    <p>Ciudad de México, México</p><br>
+                    <p>Ciudad de México, México</p><br> -->
                 </div>
 
             </div>
