@@ -19,3 +19,8 @@ var intervalo = setInterval(mostrarTexto, 100); // Ajusta el valor para controla
 function registroCerrado(){
   alert("Evento Concluido")
 }
+
+
+if (window.location.hash) {
+  window.location.href = "./index.html";
+}

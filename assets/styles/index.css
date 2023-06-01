@@ -5,10 +5,13 @@
 }
 
 #descripcion{
-  color: rgb(255, 255, 255);
+/*   color: rgb(250, 241, 210);
+ */
+  color: rgb(205, 251, 251);
   padding: 150px 50px 50px 100px;
   text-align: left;
   font-size: 23px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .conva{
