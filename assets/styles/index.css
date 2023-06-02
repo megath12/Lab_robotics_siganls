@@ -110,15 +110,19 @@
   color: rgb(45, 45, 151);
 }
 
+a img{
+ width: 100%; 
+}
+
 
 @media (max-width:600px){
 
   #descripcion{
-    height: 100px;
-    padding: 30px 20px 50px 20px;
+    height: 125px;
+    padding: 45px 20px 50px 25px;
     text-align: left;
     font-size: 14px;
-    color:rgb(208, 208, 208);
+    color:rgb(204, 236, 244);
   }
   
   .medusa{
@@ -158,6 +162,10 @@
 
   .seve{
     font-size: 16px;
+  }
+
+  .cardes{
+    margin:30px 0 20px 0;
   }
 
   .card{
